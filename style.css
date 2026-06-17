@@ -29,13 +29,45 @@ header {
   z-index: 9;
 }
 
+section {
+  width: 100%;
+  display: flex;
+  padding: 7vw;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 500;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  gap: 12px;
+  border: none;
+  padding: 16px 0px;
+  outline: none;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+.bgMonstro {
+  background-image: url("assets/bg-sec2.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .hero {
   background-image: url("assets/hero.webp");
   background-position: 50% 0%;
   background-size: cover;
-  width: 100%;
   height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 7vw 4vw;
@@ -67,18 +99,96 @@ header {
       font-size: 2vw;
       margin-bottom: 32px;
     }
+  }
+}
 
-    button {
-      background-color: transparent;
-      color: white;
-      font-size: 16px;
+.secaoCidade {
+  flex-direction: column;
+
+  .titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cards {
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+      background-image: url(assets/card1.webp);
+      width: 32%;
+      aspect-ratio: 16/9;
+      background-size: cover;
+      background-position: center;
       display: flex;
-      gap: 12px;
-      border: none;
-      padding: 16px 0px;
-      outline: none;
-      border-bottom: 1px solid white;
-      cursor: pointer;
+      align-items: end;
+      justify-content: space-between;
+      padding: 20px;
+
+      h3 {
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 12px;
+      }
     }
+
+    .card:nth-child(2) {
+      background-image: url(assets/card2.webp);
+    }
+
+    .card:nth-child(3) {
+      background-image: url(assets/card3.webp);
+    }
+  }
+}
+
+.secaoDepoimentos {
+  flex-direction: column;
+
+  .logotipos {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .depoimentos {
+    margin-top: 62px;
+    display: flex;
+    justify-content: space-between;
+
+    .depoimento {
+      width: 31%;
+    }
+  }
+}
+
+.secaoObrigado {
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-bottom: 40px;
+  }
+
+  ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .conteudoFooter {
+    display: flex;
+    width: 100%;
+    padding: 7vw;
   }
 }
