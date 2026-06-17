@@ -18,6 +18,7 @@ body {
   background: #0c0102;
   color: white;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -185,10 +186,74 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-image: url(assets/bg-footer.webp);
+  background-size: cover;
+  background-position: center;
 
   .conteudoFooter {
     display: flex;
     width: 100%;
     padding: 7vw;
+
+    .logoFooter {
+      width: 30%;
+      h3 {
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 4px;
+      }
+
+      h2 {
+        font-size: 3.7vw;
+        font-family: "Benguiat", serif;
+      }
+    }
+    .secoesFooter {
+      display: flex;
+      flex: 1;
+      justify-content: end;
+      gap: 6%;
+      align-items: end;
+
+      h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 12px;
+      }
+
+      .social {
+        ul {
+          display: flex;
+          gap: 12px;
+        }
+      }
+    }
+  }
+
+  .logotiposFooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vw;
+  }
+
+  .textoInfinito {
+    width: max-content;
+    display: flex;
+
+    h3 {
+      color: rgb(199, 199, 199);
+      font-size: 12vw;
+      font-family: "Benguiat", serif;
+      mix-blend-mode: color-dodge;
+      animation: textoInfinito 12s infinite linear;
+      padding-left: 8vw;
+    }
+  }
+}
+
+@keyframes textoInfinito {
+  100% {
+    transform: translateX(-100%);
   }
 }
