@@ -19,3 +19,40 @@ gsap.from("picture:nth-child(1)", {
   y: -60,
   duration: 1,
 });
+
+gsap.from(".card", {
+  opacity: 0,
+  duration: 1,
+  filter: "blur(10px",
+  stagger: 0.3,
+  scrollTrigger: {
+    trigger: ".cards",
+    end: "100% 70%",
+    start: "0% 100%",
+    scrub: true,
+  },
+});
+
+gsap.from(".secaoObrigado ul li", {
+  opacity: 0,
+  x: 40,
+  filter: "blur(10px",
+  stagger: 0.1,
+  scrollTrigger: {
+    trigger: ".secaoObrigado ul",
+    start: "0% 80%",
+    end: "100% 50%",
+    scrub: true,
+  },
+});
+
+gsap.from("footer", {
+  y: "-30%",
+  immediateRender: true,
+  scrollTrigger: {
+    trigger: "footer",
+    scrub: true,
+    invalidateOnRefresh: true,
+    end: "100% 100%",
+  },
+});
