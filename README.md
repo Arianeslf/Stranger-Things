@@ -34,11 +34,5 @@ Também foram utilizados recursos como **ScrollTrigger** e **ScrollSmoother**, p
 
 - Layout inspirado em Stranger Things
 - Seção inicial com imagens e chamada principal
-- Cards de cidades disponíveis
 - Área de depoimentos
 - Animações com GSAP
-- Publicação online com Vercel
-
-## Desenvolvido por
-
-Ariane Silvestre
