@@ -33,5 +33,4 @@ Também foram utilizados recursos como **ScrollTrigger** e **ScrollSmoother**, p
 
 - Layout inspirado em Stranger Things
 - Seção inicial com imagens e chamada principal
-- Área de depoimentos
 - Animações com GSAP
