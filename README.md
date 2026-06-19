@@ -18,6 +18,7 @@ O objetivo foi praticar estruturação de páginas com HTML, CSS e JavaScript, a
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
+
 ## Animações com GSAP
 
 <p>
@@ -30,7 +31,7 @@ Com ele, foram aplicados efeitos de entrada nos elementos da página, movimenta�
 Também foram utilizados recursos como **ScrollTrigger** e **ScrollSmoother**, permitindo que algumas animações acontecessem conforme o usuário rola a página, deixando a experiência mais fluida e imersiva.
 
 ## Funcionalidades
-
+  
 - Layout inspirado em Stranger Things
 - Seção inicial com imagens e chamada principal
 - Animações com GSAP
