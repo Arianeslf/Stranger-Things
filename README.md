@@ -12,13 +12,12 @@ O objetivo foi praticar estruturação de páginas com HTML, CSS e JavaScript, a
 
 ## Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
-- GSAP
-- ScrollTrigger
-- ScrollSmoother
-- Vercel
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45" title="HTML5" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" title="CSS3" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" title="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gsap/gsap-original.svg" width="45" title="GSAP" />
+</div>
 
 ## Funcionalidades
 
